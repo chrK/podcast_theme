@@ -1,0 +1,28 @@
+@import "base";
+
+
+
+
+.person {
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin: $base_line-height .5*$base_line-height;
+}
+.person__portait {
+    $portrait_size: 3*$base_line-height;
+
+    width: $portrait_size;
+    height: $portrait_size;
+    border-radius: .5*$portrait_size;
+}
+.person__links {
+    list-style: none;
+}
+
+
+// Structure persons
+
+.article__persons__container {
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+@import "base";
+
+.article {
+
+}
+.article__title {
+    position: relative;
+}
+.article__date {
+    position: absolute;
+    left: -140px;
+    top: 104px;
+    transform: rotate(-90deg);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: right;
+    width: 200px;
+}

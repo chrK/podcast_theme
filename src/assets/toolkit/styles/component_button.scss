@@ -1,0 +1,23 @@
+@import "base";
+
+button,
+.button,
+input[type=sumbit] {
+    $button_color: $c_cyan;
+
+    background-color: $button_color;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: $base_font-size;
+    height: 1.5 * $base_line-height;
+    line-height: 1.5 * $base_line-height;
+    padding: 0 $base_line-height;
+    @include transition(all, .3s);
+
+    &:hover {
+        background-color: lighten($button_color, 7%);
+        @include transition(all, .3s);
+    }
+}

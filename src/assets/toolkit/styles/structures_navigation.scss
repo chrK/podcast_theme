@@ -1,0 +1,35 @@
+@import "base";
+
+.nav {
+    background: url(../images/acab.svg) left bottom no-repeat;
+    background-size: 100% 3px;
+    font-size: 13px;
+    height: 40px;
+    letter-spacing: 1.5px;
+    margin-top: 50px;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: justify;
+    text-transform: uppercase;
+
+    &:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+}
+.nav__item {
+    display: inline-block;
+}
+.nav__item__link {
+    color: $c_text;
+    border-top: 2px solid #fff;
+    @include transition(all, .5s);
+
+    &:hover {
+        color: #000;
+        background-color: transparent;
+        border-top: 2px solid $c_text;
+        @include transition(all, .5s);
+    }
+}

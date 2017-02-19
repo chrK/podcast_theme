@@ -1,0 +1,11 @@
+@import "base";
+
+.quote {
+    letter-spacing: 1px;
+    padding-top: $base_line-height;
+    padding-bottom: 2 * $base_line-height;
+
+    strong {
+        font-weight: 500;
+    }
+}

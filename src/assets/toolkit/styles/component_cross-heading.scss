@@ -1,0 +1,14 @@
+@import "base";
+
+.cross-heading {
+    text-align: center;
+
+    span {
+        border-bottom: 2px solid $c_text;
+        display: inline-block;
+        font-size: $base_font-size;
+        font-weight: 700;
+        line-height: $base_line-height;
+        margin-top: $base_line-height;
+    }
+}

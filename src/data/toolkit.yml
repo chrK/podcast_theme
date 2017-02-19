@@ -1,0 +1,14 @@
+colors:
+  primary:
+    Text: "#282828"
+    Background: "#ffffff"
+  secondary:
+    Yellow: "#ffc400"
+    Blue: "#06adc1"
+    Orange: "#ff6f00"
+    Violet: "#9e00c6"
+    Magenta: "#ff0090"
+    Green: "#008028"
+    Red: "#dd0302"
+
+

@@ -1,0 +1,34 @@
+@import "base";
+
+@import "base_entities";
+
+@import "component_button";
+@import "component_cross-heading";
+@import "component_lists";
+@import "component_person";
+@import "component_quote";
+
+@import "structures_episode";
+@import "structures_footer";
+@import "structures_navigation";
+
+
+
+.page-title {
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 36px;
+    top: 160px;
+    left: -360px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 35em;
+    position: relative;
+}

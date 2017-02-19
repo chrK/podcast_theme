@@ -1,0 +1,89 @@
+@import "base";
+
+body {
+    background-image: url(../images/acab.svg);
+    background-size: 100% .5*$base_font-size;
+    background-repeat: no-repeat;
+    color: $c_text;
+    font-family: $text-font;
+    font-size: $base_font-size;
+    line-height: $base_line-height;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+p::selection,
+p::-moz-selection {
+    background: $c_yellow;
+}
+
+
+h1, .heading1 {
+    font-weight: normal;
+    font-size: 2 * $base_font-size;
+    line-height: 2 * $base_line-height;
+    margin-top: 2 * $base_line-height;
+    margin-bottom: .5 * $base_line-height;
+}
+h2, .heading2 {
+    font-size: $base_font-size;
+    line-height: 1.5 * $base_line-height;
+    margin-top: 1.5 * $base_line-height;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    position: relative;
+    
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 60px;
+        background-color: $c_magenta;
+    }
+}
+h3, .heading3 {
+    text-align: center;
+    font-size: $base_font-size;
+    font-weight: 700;
+    line-height: $base_line-height;
+    margin-top: $base_line-height;
+    letter-spacing: 1px;
+}
+h4, .heading4 {
+    font-size: $base_font-size;
+    margin-top: $base_line-height;
+    line-height: $base_line-height;
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: .5 * $base_line-height;
+}
+a {
+    color: $c_cyan;
+    cursor: pointer;
+    display: inline-block;
+    background-color: $c_background;
+    text-decoration: none;
+    @include transition(all, .3s);
+
+    &:hover {
+        background-color: $c_cyan;
+        color: $c_background;
+        cursor: pointer;
+        text-decoration: none;
+        @include transition(all, .2s);
+    }
+}
+strong, b {
+    font-weight: 500;
+}
+em, i {
+
+}

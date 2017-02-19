@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3000px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="acab">
+        <rect id="rec-01" fill="#FFC400" x="0" y="0" width="500" height="20"></rect>
+        <rect id="rec-03" fill="#06ADC1" x="500" y="0" width="500" height="20"></rect>
+        <rect id="rec-04" fill="#FF6F00" x="1000" y="0" width="500" height="20"></rect>
+        <rect id="rec-05" fill="#9E00C6" x="1500" y="0" width="500" height="20"></rect>
+        <rect id="rec-06" fill="#FF0090" x="2000" y="0" width="500" height="20"></rect>
+        <rect id="rec-02" fill="#008028" x="2500" y="0" width="500" height="20"></rect>
+    </g>
+</svg>
