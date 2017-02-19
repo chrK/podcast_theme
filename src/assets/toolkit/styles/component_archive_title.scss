@@ -1,0 +1,13 @@
+@import "base";
+
+.article__title {
+    h2 {
+        a {
+            color: $c_text;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
